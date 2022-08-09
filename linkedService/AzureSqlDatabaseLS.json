@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlDatabaseLS",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"description": "Destination DB",
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=simplestorageserver.database.windows.net;initial catalog=abhishekDB;user id=abhishek",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlNZTkFQU0VAMEZCQTA1NDMtRkYxQi00NTQ4LUJDMTItNjQyMjJCNEYxMkMxX2RjMmZhMjcwLThhMzAtNDY4ZC05NzYwLWJmZDYzM2UzMWM2NyINCn0="
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
